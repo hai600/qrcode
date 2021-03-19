@@ -142,7 +142,7 @@ class QRCaptureView(private val registrar: PluginRegistry.Registrar, id: Int) :
              override fun onActivityDestroyed(p0: Activity) {
              }
 
-             override fun onActivitySaveInstanceState(p0: Activity, p1: Bundle?) {
+             override fun onActivitySaveInstanceState(p0: Activity, p1: Bundle) {
              }
 
              override fun onActivityStopped(p0: Activity) {
